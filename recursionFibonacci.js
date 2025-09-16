@@ -1,4 +1,4 @@
-function recursionFibonacci(n) {
+const recursionFibonacci = (n) => {
     if (n < 2 ) {
         return n;
     }
@@ -6,6 +6,6 @@ function recursionFibonacci(n) {
 }
 
 console.log(recursionFibonacci(0));
+console.log(recursionFibonacci(3));
 console.log(recursionFibonacci(2));
 console.log(recursionFibonacci(6));
-console.log(recursionFibonacci(3));

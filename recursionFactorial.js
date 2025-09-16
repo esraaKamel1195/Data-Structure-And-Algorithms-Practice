@@ -1,4 +1,4 @@
-function recursionFactorial(n) {
+const recursionFactorial = (n) => {
     if ( n === 0) {
         return 1;
     }
