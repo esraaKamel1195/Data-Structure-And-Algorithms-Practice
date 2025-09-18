@@ -146,7 +146,7 @@ class ArrayQueueWithFixedSize {
 }
 
 // Example usage:
-/*const linkedListQueue2 = new LinkedListQueue();
+const linkedListQueue2 = new LinkedListQueue();
 console.log(linkedListQueue2.dequeue());
 console.log(linkedListQueue2.peek());
 console.log(linkedListQueue2.isEmpty());
@@ -158,7 +158,6 @@ console.log(linkedListQueue2.dequeue());  // 10
 console.log(linkedListQueue2.peek()); // 20
 console.log(linkedListQueue2.isEmpty()); // false
 console.log(linkedListQueue2.getSize()); // 2
-*/
 
 // Example usage:
 const arrayQueue = new ArrayQueue();
