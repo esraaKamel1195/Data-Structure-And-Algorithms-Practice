@@ -110,24 +110,25 @@ class LinkedList {
 }
 
 // Example usage:
-const list = new LinkedList();
-list.append(10);
+const list = new LinkedList(); //time o(1) space o(1)
+list.append(10); //time o(n) space o(1)
+list.display(); //time o(n) space o(1)
+console.info("---");
+list.append(20); 
 list.display();
 console.info("---");
-list.append(20);
+list.prepend(5); // time o(1) space o(1)
 list.display();
 console.info("---");
-list.prepend(5);
+list.insert(15, 2); // time o(n) space o(1)
 list.display();
 console.info("---");
-list.insert(15, 2);
+list.remove(2); // time o(n) space o(1)
 list.display();
 console.info("---");
-// list.remove(2);
+// list.removeFromFront(); // time o(1) space o(1)
 // list.display();
-list.removeFromFront();
-list.display();
-console.info("---");
-// list.removeFromEnd();
+// console.info("---");
+// list.removeFromEnd(); // time o(n) space o(1)
 // list.display();
 // console.info("---");
